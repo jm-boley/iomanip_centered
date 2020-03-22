@@ -44,6 +44,7 @@
  *             - Joshua Boley (z1698317@students.niu.edu)
  * (3/22/2020) * Fixed bug with standard text char not rendering as text in the output stream
  *             * Include guards added
+ *             - Joshua Boley (z1698317@students.niu.edu)
  * 
  * Original (unmodified) code retrieved from:
  * https://stackoverflow.com/questions/14861018/center-text-in-fixed-width-field-with-stream-manipulators-in-c
