@@ -1,3 +1,6 @@
+#ifndef __IOMANIP_CENTERED_H
+#define __IOMANIP_CENTERED_H
+#pragma once
 #include <string>
 #include <iostream>
 #include <iomanip>
@@ -132,3 +135,5 @@ std::basic_ostream<charT, traits>& operator<<(std::basic_ostream<charT, traits>&
     }
     return s;
 }
+
+#endif
