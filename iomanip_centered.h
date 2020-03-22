@@ -42,7 +42,8 @@
  *               and float and double built-in data types
  *             * Added support for signed and unsigned char numeric type, standard (text) char
  *             - Joshua Boley (z1698317@students.niu.edu)
- * (3/22/2020) Fixed bug with standard text char not rendering as text in the output stream
+ * (3/22/2020) * Fixed bug with standard text char not rendering as text in the output stream
+ *             * Include guards added
  * 
  * Original (unmodified) code retrieved from:
  * https://stackoverflow.com/questions/14861018/center-text-in-fixed-width-field-with-stream-manipulators-in-c
