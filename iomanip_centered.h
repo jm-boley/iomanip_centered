@@ -13,7 +13,6 @@
  *   [std::basic_ostream] << setw(x) << centered([char*|std::string|numeric])
  * 
  * Examples:
- *   #include <iostream>
  *   #include <sstream>
  *   #include "iomanip_centered.h"
  * 
@@ -22,6 +21,8 @@
  *   using std::endl;
  *   using std::ostringstream;
  *   
+ *   // ...
+ *
  *   // Print table column labels
  *   cout << setw(10) << centered("Column A") << setw(10) << centered("Column B") << endl;
  *   cout << setw(10) << centered("==========") << setw(10) << centered("==========") << endl;
